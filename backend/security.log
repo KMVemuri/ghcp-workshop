@@ -131,3 +131,32 @@
 2026-02-05 12:19:48,191 - __main__ - INFO - Validated input from 127.0.0.1 for /api/players
 2026-02-05 12:19:48,199 - __main__ - INFO - Player created successfully - ID: 11, Name: Test Player by 127.0.0.1
 2026-02-05 12:19:48,218 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2026 12:19:48] "[35m[1mPOST /api/players HTTP/1.1[0m" 201 -
+2026-02-05 12:43:56,640 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2026 12:43:56] "GET /api/nba-results HTTP/1.1" 200 -
+2026-02-05 12:44:06,044 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2026 12:44:06] "GET /api/player-info HTTP/1.1" 200 -
+2026-02-05 12:59:41,580 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Tushara.Mandava\\githubcopilot-training\\ghcp-workshop\\backend\\app.py', reloading
+2026-02-05 12:59:41,655 - werkzeug - INFO -  * Restarting with stat
+2026-02-05 12:59:42,860 - werkzeug - WARNING -  * Debugger is active!
+2026-02-05 12:59:42,865 - werkzeug - INFO -  * Debugger PIN: 118-066-085
+2026-02-05 12:59:44,044 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Tushara.Mandava\\githubcopilot-training\\ghcp-workshop\\backend\\app.py', reloading
+2026-02-05 12:59:44,102 - werkzeug - INFO -  * Restarting with stat
+2026-02-05 12:59:45,577 - werkzeug - WARNING -  * Debugger is active!
+2026-02-05 12:59:45,582 - werkzeug - INFO -  * Debugger PIN: 118-066-085
+2026-02-05 13:04:57,348 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2026 13:04:57] "GET /api/teams HTTP/1.1" 200 -
+2026-02-05 13:06:07,236 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2026 13:06:07] "GET /api/teams HTTP/1.1" 200 -
+2026-02-05 13:06:07,238 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2026 13:06:07] "GET /api/teams HTTP/1.1" 200 -
+2026-02-05 13:07:30,767 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Tushara.Mandava\\githubcopilot-training\\ghcp-workshop\\backend\\app.py', reloading
+2026-02-05 13:07:30,839 - werkzeug - INFO -  * Restarting with stat
+2026-02-05 13:07:31,915 - werkzeug - WARNING -  * Debugger is active!
+2026-02-05 13:07:31,920 - werkzeug - INFO -  * Debugger PIN: 118-066-085
+2026-02-05 13:10:29,485 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2026 13:10:29] "GET /api/player-stats HTTP/1.1" 200 -
+2026-02-05 13:10:29,486 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2026 13:10:29] "GET /api/player-stats HTTP/1.1" 200 -
+2026-02-05 16:41:37,355 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2026 16:41:37] "GET /api/player-stats HTTP/1.1" 200 -
+2026-02-05 16:41:37,356 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2026 16:41:37] "GET /api/player-stats HTTP/1.1" 200 -
+2026-02-05 16:42:27,256 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2026 16:42:27] "GET /api/player-stats HTTP/1.1" 200 -
+2026-02-05 16:42:27,569 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2026 16:42:27] "GET /api/player-stats HTTP/1.1" 200 -
+2026-02-05 16:42:41,248 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2026 16:42:41] "GET /api/player-stats HTTP/1.1" 200 -
+2026-02-05 16:42:41,590 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2026 16:42:41] "GET /api/player-stats HTTP/1.1" 200 -
+2026-02-05 16:47:05,715 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Tushara.Mandava\\githubcopilot-training\\ghcp-workshop\\backend\\app.py', reloading
+2026-02-05 16:47:05,909 - werkzeug - INFO -  * Restarting with stat
+2026-02-05 16:47:09,478 - werkzeug - WARNING -  * Debugger is active!
+2026-02-05 16:47:09,493 - werkzeug - INFO -  * Debugger PIN: 118-066-085
