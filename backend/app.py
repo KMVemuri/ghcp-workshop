@@ -138,7 +138,9 @@ data_cache = {
     'nba-games.json': {'data': None, 'last_modified': None},
     'player-info.json': {'data': None, 'last_modified': None},
     'stadiums.json': {'data': None, 'last_modified': None},
-    'coaches.json': {'data': None, 'last_modified': None}
+    'coaches.json': {'data': None, 'last_modified': None},
+    'teams.json': {'data': None, 'last_modified': None},
+    'player-stats.json': {'data': None, 'last_modified': None}
 }
 
 def get_cached_data(filename: str):
@@ -226,6 +228,36 @@ def get_stadiums():
     except Exception as e:
         print(f'Error serving stadiums data: {e}')
         return jsonify({'error': 'Failed to load stadiums data. Please try again later.'}), 500
+
+# Teams data
+@app.route('/api/teams', methods=['GET'])
+@limiter.limit("20 per minute")
+def get_teams():
+    """Get NBA teams information - Rate limited to 20 requests per minute"""
+    try:
+        teams = get_cached_data('teams.json')
+        if teams is None:
+            return jsonify({'error': 'Failed to load teams data'}), 500
+        
+        return jsonify(teams), 200
+    except Exception as e:
+        print(f'Error serving teams data: {e}')
+        return jsonify({'error': 'Failed to load teams data. Please try again later.'}), 500
+
+# Player stats data
+@app.route('/api/player-stats', methods=['GET'])
+@limiter.limit("30 per minute")
+def get_player_stats():
+    """Get NBA player statistics - Rate limited to 30 requests per minute"""
+    try:
+        player_stats = get_cached_data('player-stats.json')
+        if player_stats is None:
+            return jsonify({'error': 'Failed to load player stats data'}), 500
+        
+        return jsonify(player_stats), 200
+    except Exception as e:
+        print(f'Error serving player stats data: {e}')
+        return jsonify({'error': 'Failed to load player stats data. Please try again later.'}), 500
 
 # Player info data
 @app.route('/api/player-info', methods=['GET'])

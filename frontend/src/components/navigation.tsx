@@ -1,5 +1,5 @@
 import { cn } from "@/lib/utils";
-import { SettingsIcon, UsersIcon } from "lucide-react";
+import { SettingsIcon, UsersIcon, Users2, BarChart3 } from "lucide-react";
 import Link from "next/link";
 import { GoHome, GoHomeFill } from "react-icons/go";
 
@@ -20,6 +20,18 @@ const routes = [
     href: "/nba-scores",
     icon: CiBasketball,
     activeIcon: FaBasketball,
+  },
+  {
+    label: "Teams",
+    href: "/teams",
+    icon: Users2,
+    activeIcon: Users2,
+  },
+  {
+    label: "Player Stats",
+    href: "/player-stats",
+    icon: BarChart3,
+    activeIcon: BarChart3,
   },
   {
     label: "Stadiums",
