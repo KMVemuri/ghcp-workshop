@@ -150,3 +150,9 @@
 2026-02-05 13:07:31,920 - werkzeug - INFO -  * Debugger PIN: 118-066-085
 2026-02-05 13:10:29,485 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2026 13:10:29] "GET /api/player-stats HTTP/1.1" 200 -
 2026-02-05 13:10:29,486 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2026 13:10:29] "GET /api/player-stats HTTP/1.1" 200 -
+2026-02-05 16:41:37,355 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2026 16:41:37] "GET /api/player-stats HTTP/1.1" 200 -
+2026-02-05 16:41:37,356 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2026 16:41:37] "GET /api/player-stats HTTP/1.1" 200 -
+2026-02-05 16:42:27,256 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2026 16:42:27] "GET /api/player-stats HTTP/1.1" 200 -
+2026-02-05 16:42:27,569 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2026 16:42:27] "GET /api/player-stats HTTP/1.1" 200 -
+2026-02-05 16:42:41,248 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2026 16:42:41] "GET /api/player-stats HTTP/1.1" 200 -
+2026-02-05 16:42:41,590 - werkzeug - INFO - 127.0.0.1 - - [05/Feb/2026 16:42:41] "GET /api/player-stats HTTP/1.1" 200 -
